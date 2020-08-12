@@ -3,7 +3,8 @@ Password=input("请初始化登录密码:")
 
 print (Usrname)
 print (Password)
-
+#flag0为密码输入错误次数
+#flag1为用户名和密码全部输入成功的标志
 flag0=0
 flag1=0
 print("----------用户登录----------")
