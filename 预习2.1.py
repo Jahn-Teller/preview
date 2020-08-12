@@ -1,8 +1,8 @@
-_usrname=input("请初始化用户名:")
-_password=input("请初始化登录密码:")
+Usrname=input("请初始化用户名:")
+Password=input("请初始化登录密码:")
 
-print (_usrname)
-print (_password)
+print (Usrname)
+print (Password)
 
 flag0=0
 flag1=0
@@ -10,11 +10,11 @@ print("----------用户登录----------")
 
 while True:
     user=input("请输入用户名:")
-    if user==_usrname:
+    if user==Usrname:
         print("用户名输入正确")
         while flag0<3:
             password=input("请输入密码:")
-            if password==_password:
+            if password==Password:
                 print("----------登录成功----------")
                 flag1=1
                 break
